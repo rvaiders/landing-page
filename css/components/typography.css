@@ -7,10 +7,23 @@
 .font-15 {
     font-size: 15px;
 }
-.section-1-header {
-    font-size: 35px;
-    font-weight: 350;
+.font-18-light {
+    font-size: 18px;
+    font-weight: lighter;
+}
+.font-40 {
+    font-size: 40px;
+}
+.font-45-light {
+    font-size: 45px;
+    font-weight: lighter;
+}
+.font-24-light {
+    font-size: 24px;
 }
 .blue {
-    color: blue;
+    color: #1224FC;
+}
+.font-w {
+    font-weight: lighter;
 }
