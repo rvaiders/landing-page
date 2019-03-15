@@ -1,26 +1,16 @@
-.pink {
-    color: pink;
+#example2 {
+    background-size: 250px 250px;
+    background-repeat: repeat-x;
+    background-position:bottom;
+    background: blue;
+    opacity: 0.9;
 }
-
-/*. {*/
-    /*height: 89vh;*/
-    /*background-size: cover !important;*/
-/*}*/
-
-
-
-
-  .blue-bg {
-      background: #0F3CFF
-  ;
-  }
 
 .bg {
     background-size: cover !important;
     background-position: center right;
-    height: 60vh;
+    height: 65vh;
 }
-
 
 .block_article {
     width: 500px;
