@@ -2,7 +2,8 @@
     background-color: lightgray;
 }
 .section-2 {
-    background-color: #bebaba; 
+    background-color: #bebaba;
+    border-radius: 100px / 5px;
 }
 .section-2-box {
     background-color: white;
