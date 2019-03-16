@@ -27,10 +27,6 @@ p {
     color: #282828;
 }
 
-
-.white {
-    color: white;
-}
 .font-13 {
     font-size: 13px;
 }
@@ -78,6 +74,16 @@ p {
     font-size: 25px;
     font-weight: 500;
 }
+.font-30-light {
+    font-size: 30px;
+    font-weight: 300;
+}
 .blue {
     color: #1224FC;
+}
+.light-blue {
+    color: #2F76FD;
+}
+.white {
+    color: white;
 }
