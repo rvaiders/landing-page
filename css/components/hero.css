@@ -9,7 +9,7 @@
 .bg {
     background-size: cover !important;
     background-position: center right;
-    height: 65vh;
+    height: 700px;
 }
 
 .block_article {
@@ -19,4 +19,9 @@
     line-height: 230px;
     text-align: center;
     border-radius: 10px;
+}
+
+.hero-box {
+    height: 200px;
+    margin-top: -100px;
 }
