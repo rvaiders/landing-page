@@ -30,13 +30,10 @@
     padding: 25px;
 }
 
-/*.background:before {*/
-    /*content: '';*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*width: 100%;*/
-    /*height: 50px;*/
-    /*background-image: linear-gradient(to bottom right, red, blue);*/
-    /*opacity: 0.6;*/
-/*}*/
+@media (max-width: 768px) {
+
+h1 {
+    font-size: 45px;
+}
+
+}
