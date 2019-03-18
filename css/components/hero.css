@@ -8,7 +8,10 @@
 
 .bg {
     background-size: cover !important;
-    background-position: center right;
+    /*background-image: url('images/hero.png');*/
+    background-image: url('../../images/hero.png');
+    /*background-position: center left;*/
+    background-position:60% 50%;
     height: 700px;
 }
 
@@ -32,8 +35,8 @@
 
 @media (max-width: 768px) {
 
-h1 {
-    font-size: 45px;
+    .hero-b {
+        width: 100%;
+    }
 }
 
-}

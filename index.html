@@ -16,25 +16,24 @@
   <body>
 
       <!-- Nav Bar Start K-->
-        <!--<nav class="navbar background" role="navigation" aria-label="main navigation" id="example2" style="background-image: url('images/bg_nav_pattern.png');">-->
             <nav class="navbar" role="navigation" aria-label="main navigation" style="background:
     linear-gradient(
       rgba(31, 83, 171, 0.9),
       rgba(0, 28, 160, 0.9)
     ),
-    url('images/bg_medium_pattern.png');">
+    url('images/bg_big_pattern.png');">
 
             <div class="container nav-content">
                 <div class="navbar-brand">
                   <a class="navbar-item" href="#">
                     <img src="images\logo_white_text.png">
                   </a>
-              
-                  <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                    <span aria-hidden="true"></span>
-                  </a>
+              <!---->
+                  <!--<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">-->
+                    <!--<span aria-hidden="true"></span>-->
+                    <!--<span aria-hidden="true"></span>-->
+                    <!--<span aria-hidden="true"></span>-->
+                  <!--</a>-->
 
                 </div>
               
@@ -44,17 +43,23 @@
                     <div class="navbar-item">
                       <div class="buttons">
                         
-                        <a class="navbar-item white" href="/landing-page/index.html">
-                            Product
-                        </a>
+                        <!--<a class="navbar-item white" href="/landing-page/index.html">-->
+                            <!--Product-->
+                        <!--</a>-->
 
-                        <a class="navbar-item white" href="#">
-                            Why Us?
-                        </a>
+                        <!--<a class="navbar-item white" href="#">-->
+                            <!--Why Us?-->
+                        <!--</a>-->
 
-                        <a class="navbar-item white">
-                            Resources        
-                        </a>
+                        <!--<a class="navbar-item white">-->
+                            <!--Resources        -->
+                        <!--</a>-->
+                          <a class="button is-link no-color is-outlined" href="#product">
+                              Product
+                          </a>
+                          <a class="button is-link no-color is-outlined" href="#why_us">
+                              Why us?
+                          </a>
 
                         <a class="button is-link is-inverted is-outlined">
                             Talk to us
@@ -69,7 +74,7 @@
     <!-- Nav Bar End -->
     <!-- Hero Start K-->
 
-      <section class="hero is-medium bg" style="background-image: url('images/hero.png');">
+      <section class="hero is-medium bg">
 
           <div class="hero-body">
               <!--<img src="images\hero.png" alt="">-->
@@ -80,14 +85,14 @@
                 </h1>
                 <div class="columns">
                     <div class="column is-two-fifths">
-                        <h4 class="padding-bottom-60 has-text-centered-mobile">
+                        <h4 class="padding-bottom-30 has-text-centered-mobile">
                         Engineerd with focus to Build. Connect. <br>Ship large scale IoT deployments globally.
                         </h4>
                     </div>
                     <div class="column"></div>
                 </div>
-                <a class="button talk-to-us margin-right-20"><p class="white">Talk to us</p></a>
-                <a class="button learn-more is-inverted is-outlined text-1 ">Learn More</a>
+                <a class="button talk-to-us margin-right-20 b-margin hero-b"><p class="white">Talk to us</p></a>
+                <a class="button learn-more is-inverted is-outlined text-1 padding-10 b-margin hero-b">Learn More</a>
             </div>
           </div>
       </section>
@@ -151,7 +156,7 @@
     <!-- Hero End -->
 
     <!-- Section 1 Start -->
-    <div class="container">
+    <div class="container margin-top-30-mobile">
         <div class="columns is-vcentered">
         <div class="column">
             <img src="images\sim_card.png" alt="">
@@ -165,7 +170,7 @@
                 </div>
                 <div class="p-margin">
                     <p class="font-18-light">
-                        Connect earlier and deploy globally and stay flexible <br>throughout the entire deployment.
+                        Connect earlier and deploy globally and stay flexible throughout the entire deployment.
                     </p>
                 </div>
                 <div class="p-margin">
@@ -173,8 +178,8 @@
                             Your IoT connectivity matters. It affects everything
                     </p>
                     <p class="font-18-light">
-                        Evolve from VPN and firmware dependent security solutions, so your <br>
-                        product can adapt to changes arising from customers or the <br>
+                        Evolve from VPN and firmware dependent security solutions, so your
+                        product can adapt to changes arising from customers or the
                         industry. Even after deployment.
                     </p>
                 </div>
@@ -183,8 +188,8 @@
                         Bridging the gap between device and Cloud
                     </p>
                     <p class="font-18-light">
-                        You should be able to pick any platform and any device and have <br>
-                        them seamlessly work together, securely and globally. Stay in control <br>
+                        You should be able to pick any platform and any device and have
+                        them seamlessly work together, securely and globally. Stay in control
                         of your data and steer it where ever you want.
                     </p>
                 </div>
@@ -193,8 +198,8 @@
                         IoT connectivity is complicated. We’ve made it easy
                     </p>
                     <p class="font-18-light">
-                        Selecting IoT connectivity is not Plug and Play. But it should be. <br>
-                        Engineered for all SIM types to help you connect at the point of <br>
+                        Selecting IoT connectivity is not Plug and Play. But it should be.
+                        Engineered for all SIM types to help you connect at the point of
                         manufacture and stay connected throughout deployment.
                     </p>
                 </div>
@@ -208,7 +213,7 @@
                 <div class="container padding-top-100">
                     <div class="section is-centered">
                         <div class="has-text-centered">
-                            <p class="font-18">
+                            <p class="font-18" id="product">
                                 ONOMONDO CONECTORS
                             </p>
                             <h1 class="font-40 blue font-w">
@@ -219,38 +224,26 @@
                 </div>
                     <div class="columns section-2-bottom">
                         <div class="container">
-                        <div class="column columns has-text-centered">
-                            <div class="column level">
+                        <div class="columns has-text-centered section-2-columns">
+
+
+                            <div class="column level section-2-column">
                                 <div class="section-2-box">
                                     <img src="images\dollar_sign_blue.png" class="padding-bottom-10" alt="dollar sign">
-                                        <p class="font-18 blue">
+                                    <p class="font-18 blue">
                                             $0 /Device /Month
                                         </p>
-                                    <div class="level-item ">
+                                    <div class="level-item">
                                         <ul class="check font-16 has-text-left list-b" style="list-style-image: url('images/check_mark.png');">
-                                            <li>Pay for data transmitted</li>
+                                            <li>Pay for data transmitted.</li>
                                             <li>No monthly or device fees.</li>
                                             <li>No fine print.</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <!--<div class="column level">-->
-                                <!--<div class="section-2-box">-->
-                                    <!--<img src="images\blue_shield.png" class="padding-bottom-10" alt="shield">-->
-                                    <!--<p class="font-18 blue">-->
-                                        <!--Less Data, more security-->
-                                    <!--</p>-->
-                                    <!--<div class="level-item">-->
-                                        <!--<ul class="font-16 has-text-left list-b" style="list-style-image: url('images/check_mark.png');">-->
-                                            <!--<li>Send only raw data</li>-->
-                                            <!--<li>Connectivity logic during transmission</li>-->
-                                            <!--<li>Devices remain isolated in the network</li>-->
-                                        <!--</ul>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <div class="column level">
+
+                            <div class="column level section-2-column">
                                 <div class="section-2-box">
                                     <img src="images\blue_shield.png" class="padding-bottom-10" alt="">
                                     <p class="font-18 blue">
@@ -258,14 +251,15 @@
                                     </p>
                                     <div class="level-item">
                                         <ul class="font-16 has-text-left list-b" style="list-style-image: url('images/check_mark.png');">
-                                            <li>Send only raw data</li>
-                                            <li>Connectivity logic during transmission</li>
-                                            <li>Devices remain isolated in the network</li>
+                                            <li>Send only raw data.</li>
+                                            <li>Connectivity logic during transmission.</li>
+                                            <li>Devices remain isolated in the network.</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="column level">
+
+                            <div class="column level section-2-column">
                                 <div class="section-2-box">
                                     <img src="images\mesh.png" class="padding-bottom-10" alt="">
                                     <p class="font-18 blue">
@@ -280,7 +274,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="column level">
+                            <div class="column level section-2-column">
                                 <div class="section-2-box">
                                     <img src="images\play_button.png" class="padding-bottom-10" alt="">
                                     <p class="font-18 blue">
@@ -290,7 +284,7 @@
                                         <ul class="font-16 has-text-left list-b" style="list-style-image: url('images/check_mark.png');">
                                             <li>Redundant global network.</li>
                                             <li>No firmware logic required.</li>
-                                            <li>You decide the data’s destination</li>
+                                            <li>You decide the data’s destination.</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -306,7 +300,13 @@
       <div class="section-2-bottom">
           <div class="container">
               <div class="padding-bottom-150">
-                  <img src="images\how_it_works.png" alt="">
+                  <img class="hw-d" src="images\how_it_works.png" alt="">
+
+                  <div class="columns">
+                    <div class="column has-text-centered">
+                      <img class="hw-m padding-top-50" src="images\how_it_works_mobile.png" alt="">
+                    </div>
+                  </div>
               </div>
           </div>
       </div>
@@ -319,13 +319,13 @@
                     YOU'RE IN GOOD COMPANY
                 </p>
                 <div class="columns padding-top-40">
-                    <div class="column">
+                    <div class="column margin-top-bottom-50">
                         <img src="images\donkey.png" alt="Donkey Republic">
                     </div>
-                    <div class="column">
+                    <div class="column margin-top-bottom-50">
                         <img src="images\wireless_logic.png" alt="Wireless logic">
                     </div>
-                    <div class="column">
+                    <div class="column margin-top-bottom-50">
                         <img src="images\connected_cars.png" alt="Connected cars">
                     </div>
                 </div>
@@ -335,17 +335,17 @@
     <!-- Section 4 Start R --> 
         <div class="container padding-30">
             <div class="has-text-centered">
-                <h2 class="padding-30 blue">How Onomondo works</h2>
+                <h2 class="padding-30 blue" id="why_us">How Onomondo works</h2>
             </div>
 
             <div class="columns is-vcentered">
                 <div class="column"></div>
                 <div class="columns column is-two-fifths">
                     <div class="column">
-                        <p class="font-18 blue has-text-centered">WITH ONOMONDO</p>
+                        <p class="font-18 blue has-text-centered-desktop"><span class="bullet">⬤</span> WITH ONOMONDO</p>
                     </div>
                     <div class="column">
-                        <p class="font-18 has-text-left">WITHOUT ONOMONDO</p>
+                        <p class="font-18 has-text-left gray"><span class="bullet">⬤</span> WITHOUT ONOMONDO</p>
                     </div>
                 </div>
                 <div class="column"></div>
@@ -355,81 +355,81 @@
 
             <div class="columns">
                 <div class="column">
-                    <div class="columns">
-                        <div class="column is-two-thirds padding-30">
+                    <div class="columns is-mobile">
+                        <div class="column is-two-thirds is-one-quarter-mobile">
                             <p class="font-24-light blue">No contract lock-in</p>
                     <p class="font-18-light">Global coverage with network switching without minimum commitments. In fact, permanent roaming and device isolation comes standard.</p>
                         </div>
-                        <div class="column">
+                        <div class="column is-one-quarter-mobile">
                             <img src="images\ho_1.png" alt="Lock">
                         </div>
                     </div>
                 </div>
                 <div class="column">
-                    <div class="columns">
-                        <div class="column">
+                    <div class="columns is-mobile">
+                        <div class="column is-one-quarter-mobile">
                             <img src="images\ho_2.png" alt="Lock">
                         </div>
-                        <div class="column is-two-thirds padding-30">
+                        <div class="column is-two-thirds is-one-quarter-mobile">
                             <p class="font-24-light">Negotiation lock-in</p>
                     <p class="font-18-light">Are time consuming and lock you in to device and duration commitments. What’s riskier, if you don’t ask you don’t get.</p>
                         </div>
                     </div>
                 </div>
-
             </div>
 
             <div class="columns">
                 <div class="column">
-                    <div class="columns">
-                        <div class="column is-two-thirds padding-30">
+                    <div class="columns is-mobile">
+                        <div class="column is-two-thirds is-one-quarter-mobile">
                             <p class="font-24-light blue">Device agnostic</p>
                             <p class="font-18-light">Get the innovative IoT solution without the hardware. Found a better solution? Take your sim keys with you.</p>
                         </div>
-                        <div class="column">
+                        <div class="column is-one-quarter-mobile">
                             <img src="images\ho_3.png" alt="Lock">
                         </div>
                     </div>
                 </div>
+
                 <div class="column">
-                    <div class="columns">
-                        <div class="column">
+                    <div class="columns is-mobile">
+                        <div class="column is-one-quarter-mobile">
                             <img src="images\ho_4.png" alt="Lock">
                         </div>
-                        <div class="column is-two-thirds padding-30">
+                        <div class="column is-two-thirds is-one-quarter-mobile">
                             <p class="font-24-light">Device lock-in</p>
                             <p class="font-18-light">Most innovative solutions require
                                 special hardware. Worse, changing
                                 global providers requires new sim
-                                cards.
-                            </p>
+                                cards.</p>
                         </div>
                     </div>
                 </div>
 
             </div>
 
+
             <div class="columns">
                 <div class="column">
-                    <div class="columns">
-                        <div class="column is-two-thirds padding-30">
+                    <div class="columns is-mobile">
+                        <div class="column is-two-thirds is-one-quarter-mobile">
                             <p class="font-24-light blue">Future-proof</p>
                             <p class="font-18-light">The industry is evolving. Fast.
                                 Flexibility to adapt is key.
                                 Change your platform without
                                 changing your device.</p>
                         </div>
-                        <div class="column">
+                        <div class="column is-one-quarter-mobile">
                             <img src="images\ho_5.png" alt="Lock">
                         </div>
                     </div>
                 </div>
                 <div class="column">
-                    <div class="columns">
-                        <div class="column">
+                    <div class="columns is-mobile">
+                        <div class="column is-one-quarter-mobile">
                             <img src="images\ho_6.png" alt="Lock">
                         </div>
-                        <div class="column is-two-thirds padding-30">
+                        <div class="column is-two-thirds is-one-quarter-mobile">
                             <p class="font-24-light">Platform lock-in</p>
                             <p class="font-18-light">Are time consuming and lock
                                 you in to device and duration
@@ -443,25 +443,25 @@
 
             <div class="columns">
                 <div class="column">
-                    <div class="columns">
-                        <div class="column is-two-thirds padding-30">
+                    <div class="columns is-mobile">
+                        <div class="column is-two-thirds is-one-quarter-mobile">
                             <p class="font-24-light blue">Free to scale</p>
                             <p class="font-18-light">No Monthly or Device fees
                                 so you can tie price to value creation.
                                 Minimal Data overhead and our Connectors
                                 mean paying for less data.</p>
                         </div>
-                        <div class="column">
+                        <div class="column is-one-quarter-mobile">
                             <img src="images\ho_7.png" alt="Ship">
                         </div>
                     </div>
                 </div>
                 <div class="column">
-                    <div class="columns">
-                        <div class="column">
+                    <div class="columns is-mobile">
+                        <div class="column is-one-quarter-mobile">
                             <img src="images\ho_8.png" alt="Snail">
                         </div>
-                        <div class="column is-two-thirds padding-30">
+                        <div class="column is-two-thirds is-one-quarter-mobile">
                             <p class="font-24-light">Scaling is costly</p>
                             <p class="font-18-light">Monthly device fees create minimum
                                 prices on all devices,
@@ -478,54 +478,58 @@
     <div class="container">
         <div class="has-text-centered">
 
-            <h2 class="blue">Industry Spotlights</h2>
+            <h2 class="blue padding-top-30">Industry Spotlights</h2>
             <p class="font-18-light">FUTURE-PROOF IOT SOLUTIONS ACROSS INDUSTRIES</p>
 
         </div>
         
-        <div class="padding-top-70">
-            <div class="columns is-vcentered">
-                <div class="column is-one-quarter ">
-                <img src="images\ip_1.png">
+        <div class="padding-top-70 section-5-content">
+            <div class="columns is-vcentered has-text-centered-mobile">
+                <div class="column is-one-quarter">
+                <img src="images\ip_1.png" class="section-5-image">
                 </div>
-                <div class="column is-two-fifths padding-30">
+                <div class="column is-two-fifths-fullhd is-half padding-30">
                     <h1 class="font-24 blue">Connected Automotive</h1>
                     <p>Requires a global solution with permanent roaming and automatic network switching. Maintain a secure and isolated connection and protect your fleet. Reduce unnecessary services, increase time on road and generate new perceived value for customers.</p>
                 </div>
 
             </div>
 
-            <div class="columns is-vcentered padding-top--50">
-                <div class="column"></div>
-                <div class="column is-one-third">
-                    <h1 class="font-24 blue">Connected Products / utilities</h1>
+            <div class="columns is-vcentered has-text-centered-mobile margin-top-minus-60">
+                <div class="column second-image">
+                    <img src="images\ip_2.png" class="section-5-image">
+                </div>
+                <div class="column is-half is-offset-3-tablet is-offset-3-desktop">
+                    <h1 class="font-24 blue">Connected Products / Utilities</h1>
                     <p>Understanding product use and offer new services while staying innovative. Connect and test during manufacturing
                     and ship your product inherently connected.</p>
                 </div>
-                <div class="column is-one-quarter">
+                <div class="column is-one-quarter first-image">
                     <img src="images\ip_2.png">
                 </div>
             </div>
 
-            <div class="columns is-vcentered padding-top--50">
-                    <div class="column is-one-quarter ">
-                    <img src="images\ip_3.png">
+            <div class="columns is-vcentered has-text-centered-mobile margin-top-minus-60">
+                    <div class="column is-one-quarter">
+                    <img src="images\ip_3.png" class="section-5-image">
                     </div>
-                    <div class="column is-two-fifths padding-30">
+                    <div class="column is-two-fifths-fullhd is-half padding-30">
                         <h1 class="font-24 blue">IIoT</h1>
                         <p>Scaling of mission critical data in IIoT enhances security vulnerabilities, data processing and in many cases removes agility. Regular Security updates means  constantly connecting your devices. Consuming time and bandwidth. Using our Connectors and value pricing makes global scaling easier.</p>
                     </div>
 
             </div>
 
-            <div class="columns is-vcentered padding-top--50 padding-bottom-70">
-                    <div class="column"></div>
-                    <div class="column is-one-third">
-                        <h1 class="font-24 blue">Smart cities</h1>
+            <div class="columns is-vcentered has-text-centered-mobile margin-top-minus-60 padding-bottom-70">
+                    <div class="column second-image">
+                        <img src="images\ip_4.png" class="section-5-image">
+                    </div>
+                    <div class="column is-half-desktop is-offset-3-tablet is-offset-3-desktop">
+                        <h1 class="font-24 blue">Smart Cities</h1>
                         <p>Understanding product use and offer new services while staying innovative. Connect and test during manufacturing
                         and ship your product inherently connected.</p>
                     </div>
-                    <div class="column is-one-quarter">
+                    <div class="column is-one-quarter first-image">
                         <img src="images\ip_4.png">
                     </div>
             </div>
@@ -539,17 +543,17 @@
         rgba(31, 83, 171, 0.9),
         rgba(0, 28, 160, 0.9)
         ),
-        url('images/bg_medium_pattern.png');">
+        url('images/bg_big_pattern.png');">
             <div class="container">
                 <div class="columns is-vcentered">
-                    <div class="column is-two-fifths">
-                        <p class="font-30-light white padding-30">
-                            Be the exception. Connect earlier. ship globally.
+                    <div class="column is-half">
+                        <h3 class="padding-30 has-text-centered-mobile">
+                            Be the exception. Connect earlier. Ship globally.
                             And Succeed.
-                        </p>
+                        </h3>
                     </div>     
-                    <div class="column has-text-right is-narrow is-offset-4">
-                        <a class="button talk-to-us"><p class="white">Talk to us</p></a>
+                    <div class="column has-text-centered-mobile has-text-right-desktop has-text-right-tablet padding-30">
+                        <a class="button talk-to-us hero-b"><p class="white">Talk to us</p></a>
                     </div>
                 </div>
             </div>
@@ -558,7 +562,7 @@
     <!-- Footer Start -->
         <div class="footer">
             <div class="container">
-                <div class="columns">
+                <div class="columns has-text-centered-mobile">
                     <div class="column is-one-fifth">
                         <img src="images\ondomondo.png" alt="">
                     </div>
@@ -575,7 +579,7 @@
                     </div>
                     <div class="column padding-left-65">
                         <p class="folow-us font-14">FOLOW ONDOMONDO</p>
-                        <a href="#"><img class="i-social" src="images\s_1.png" alt=""></a> 
+                        <a href="#"><img class="i-social" src="images\s_1.png" alt=""></a>
                         <a href="#"><img class="i-social" src="images\s_2.png" alt=""></a> 
                         <a href="#"><img class="i-social" src="images\s_3.png" alt=""></a> 
                         <a href="#"><img class="i-social" src="images\s_4.png" alt=""></a> 
@@ -584,7 +588,7 @@
                 <p class="footer-text has-text-centered padding-top-70">
                     Cookie Preference | Email Subcriptions | Privacy | Legal © 2019 Onomondo A/S
                 </p>
-            </div>    
+            </div>
         </div>
     <!-- Footer End -->
   </body>
