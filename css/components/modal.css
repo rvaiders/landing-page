@@ -1,0 +1,33 @@
+
+  #modal-form-style {
+    background-color: white;
+    padding: 20px;
+  }
+  .modal-card {
+    width: 1292px;
+    height: 713px;
+    border-radius: 21px;
+  }
+  .line {
+
+        border:         none;
+        border-left:    1px solid #C3C3C3;
+        height:         100;
+        width:          1px;       
+        margin: 20px;
+        
+  }
+.form-control-multiline {
+  resize: none;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+.input-fields {
+  width: 100%;
+  height: 51px;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
