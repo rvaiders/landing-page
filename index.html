@@ -56,7 +56,7 @@
                               Why us?
                           </a>
 
-                        <a class="button is-link is-inverted is-outlined" href="#footer">
+                        <a class="button is-link is-inverted is-outlined modal-button" data-target="modal-bis">
                             Talk to us
                         </a>
 
@@ -624,9 +624,9 @@
                             Be the exception. Connect at production. Ship globally.
                             Succeed.
                         </h3>
-                    </div>     
-                    <div class="column is has-text-centered-mobile has-text-right-desktop has-text-right-tablet padding-30 padding-talk-to-us">
-                        <a class="button talk-to-us hero-b" href="#footer"><p class="white">Talk to us</p></a>
+                    </div>
+                    <div class="column has-text-centered-mobile has-text-right-desktop has-text-right-tablet padding-30">
+                        <a class="button talk-to-us hero-b modal-button" data-target="modal-bis"><p class="white">Talk to us</p></a>
                     </div>
                 </div>
             </div>
@@ -670,6 +670,65 @@
         </div>
     <!-- Footer End -->
 
+    <!-- Modal start -->
+        <div id="modal-bis" class="modal is-active">
+            <div class="modal-background">
+                <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+            <div class="modal-card">
+                <!-- <header class="modal-card-head">
+                    <p class="modal-card-title">Write us a message</p>
+                </header> -->
+                <section class="modal-card-body modal-card-style">
+                    <div id="modal-form-style">
+                        <div class="columns">
+                            <div class="column is-two-thirds">
+                                <h3 class="modal-card-title blue padding-bottom-20">Write us a message</h3>
+                                <form>
+                                    <p class="font-18-light padding-top-20">Your name</p>
+                                    <input class="input-fields" type="text" id="name" name="firstname">
+
+                                    <p class="font-18-light padding-top-20">Your E-mail</p>
+                                    <input class="input-fields" type="text" id="e-mail" name="lastname">
+
+                                    <p class="font-18-light padding-top-20">Write a message</p>
+                                    <textarea class="form-control-multiline form-control" rows="7" name="feedback" maxlength="500" ></textarea>
+                                    <div class="columns padding-top-20">
+                                        <div class="column is-narrow">
+                                            <input class="talk-to-us white solid" type="submit" value="Send">
+                                        </div>
+                                        <div class="column">
+                                            <!-- <input class="learn-more-cancel solid " type="submit" value="Cancel"> -->
+                                            <button class="learn-more-cancel solid">Cancel</button>
+                                        </div>
+                                        <div class="column"></div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="column is-narrow line">
+
+                            </div>
+                            <div class="column">
+                                <h3 class="modal-card-title blue padding-bottom-30">Give us a phone call</h3>
+                                <p class="font-18-light padding-bottom-60">
+                                    We’re always happy to talk to our customers in person and find the best solution.
+                                </p>
+                                <p class="font-18-light">Michael Karlsen, C.E.O.</p>
+                                <p class="blue font-55-light">32 54 65 67</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- <footer class="modal-card-foot">
+                    <button class="button is-success">Save changes</button>
+                    <button class="button">Cancel</button>
+                </footer> -->
+            </div>
+        </div>
+
+        <script src="script.js"></script>
       <script src="scripts.js"></script>
+
+      <!-- Modal end -->
   </body>
 </html>

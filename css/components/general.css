@@ -68,6 +68,15 @@ html, body {
 .margin-top-minus-60 {
     margin-top: -60px;
 }
+.padding-bottom-20 {
+    padding-bottom: 20px;
+}
+.padding-top-20 {
+    padding-top: 20px;
+}
+.padding-bottom-60 {
+    padding-bottom: 60px;
+}
 
 @media (max-width: 768px) {
     .margin-top-minus-60 {
@@ -96,6 +105,16 @@ html, body {
     color: white;
     font-weight: 700;
 }
+.learn-more-cancel{
+    background-color:transparent;
+    border-color: #2F76FD;
+    border-width: 2px;
+    height: 58px;
+    width: 202px;
+    border-radius: 10px;
+    color: #2F76FD;
+    font-weight: 700;
+}
 
 .learn-more:hover {
     /*background-color: #2F76FD;*/
@@ -113,6 +132,10 @@ html, body {
 .margin-top-bottom-50 {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.solid {
+    border-style: solid;
 }
 @media (max-width: 768px) {
     .margin-top-30-mobile {
