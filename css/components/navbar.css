@@ -1,0 +1,26 @@
+.navbar-menu {
+    background-color: #20242B;
+}
+@media (min-width: 1088px) {
+    .navbar-menu {
+        background-color: transparent;
+    }
+}
+
+
+.navbar-burger{
+    font-weight: 700;
+}
+.navbar-burger span{
+    height: 2px;
+}
+.navbar-burger:hover {
+    color: white;
+}
+.no-color {
+    color: white !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 24px;
+    margin-bottom: 8px;
+}
