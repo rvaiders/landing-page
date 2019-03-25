@@ -53,14 +53,8 @@ p {
     }
 }
 
-.font-13 {
-    font-size: 13px;
-}
 .font-14 {
     font-size: 14px;
-}
-.font-15 {
-    font-size: 15px;
 }
 .font-16 {
     font-size: 16px;
@@ -81,47 +75,22 @@ p {
         font-weight: 400;
     }
 }
-
 .font-18 {
     font-size: 18px;
     font-weight: 400;
-}
-.font-18-bold {
-    font-size: 18px;
-    font-weight: 700;
 }
 .font-22-bold {
     font-size: 22px;
     font-weight: 700;
 }
-.font-40 {
-    font-size: 40px;
-}
 .font-45-light {
     font-size: 45px;
     font-weight: lighter;
-}
-.font-24-light {
-    font-size: 24px;
-    font-weight: 300;
-    padding-bottom: 10px;
 }
 .font-24 {
     font-size: 24px;
     font-weight: 500;
     padding-bottom: 10px;
-}
-.font-25 {
-    font-size: 25px;
-    font-weight: 500;
-}
-.font-30-light {
-    font-size: 30px;
-    font-weight: 300;
-}
-.font-55-light {
-    font-size: 55px;
-    font-weight: 300;
 }
 .blue {
     color: #1224FC;

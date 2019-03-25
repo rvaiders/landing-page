@@ -1,38 +1,14 @@
-#example2 {
-    background-size: 250px 250px;
-    background-repeat: repeat-x;
-    background-position:bottom;
-    background: blue;
-    opacity: 0.9;
-}
-
 .bg {
     background-size: cover !important;
-    /*background-image: url('images/hero.png');*/
-    background-image: url('../../images/hero.png');
-    /*background-position: center left;*/
-    background-position:60% 50%;
+    background: url('../../images/hero.png') 60% 50%;
     height: 700px;
 }
-
-.block_article {
-    width: 500px;
-    height: 250px;
-    background-size: cover;
-    line-height: 230px;
-    text-align: center;
-    border-radius: 10px;
-}
-
 .hero-box {
-    /*height: 200px;*/
     margin-top: -100px;
 }
-
 .box-content {
     padding: 25px;
 }
-
 @media (max-width: 768px) {
 
     .hero-b {
