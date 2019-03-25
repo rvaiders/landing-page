@@ -25,6 +25,14 @@
         background-color: #F7F7F7;
     }
 }
+@media (min-width: 1471px) {
+
+    .section-2-top {
+        background: none;
+        background-color: #F7F7F7;
+    }
+}
+
 
 
 .section-2-box {
